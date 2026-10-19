@@ -1,0 +1,22 @@
+# --- Phase 1: web, database, auth ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+email-validator>=2.1
+python-multipart>=0.0.9
+python-jose[cryptography]>=3.3
+passlib>=1.7.4
+bcrypt==4.0.1          # passlib 1.7.4 is incompatible with bcrypt >= 4.1
+
+# --- Phase 3/4: ML (PyTorch from ultralytics; uses MPS on Apple Silicon) ---
+ultralytics>=8.3
+opencv-python
+numpy
+scikit-image
+matplotlib
+
+# --- Later phases (uncomment when reached) ---
+# reportlab            # Phase 7: PDF reports
+# pytest               # Phase 8
+# httpx                # Phase 8: FastAPI TestClient

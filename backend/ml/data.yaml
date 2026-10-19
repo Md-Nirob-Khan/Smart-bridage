@@ -1,0 +1,9 @@
+path: dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: crack
+  1: spalling
+  2: corrosion
+  3: efflorescence

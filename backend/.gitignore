@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+smartbridge.db
+.env
+uploads/*
+results/*
+weights/*.pt
+!uploads/.gitkeep
+!results/.gitkeep
+!weights/.gitkeep
+ml/dataset/
+ml/runs/
+ml/pretrained/
+ml/results/
+*.pt
+ml/raw/
